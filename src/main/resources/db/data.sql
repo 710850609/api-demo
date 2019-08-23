@@ -1,0 +1,16 @@
+truncate table `user`;
+insert into `user` (id, `name`, birthday, gender) values (1, '钟馗', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (2, '虞姬', '2003-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (3, '张飞', '2004-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (4, '李白', '2000-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (5, '杜甫', '2002-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (6, '露娜', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (7, '钱学森', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (8, '后裔', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (9, '凯', '2001-11-12', 3);
+insert into `user` (id, `name`, birthday, gender) values (10, '庄周', '2001-11-12', 2);
+insert into `user` (id, `name`, birthday, gender) values (11, '亚瑟', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (12, '娜可露露', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (13, '程咬金', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (14, '孙悟空', '2001-11-12', 1);
+insert into `user` (id, `name`, birthday, gender) values (15, '唐曾', '2001-11-12', 1);
