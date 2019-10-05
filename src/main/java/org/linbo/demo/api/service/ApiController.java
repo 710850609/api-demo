@@ -20,7 +20,9 @@ public class ApiController {
 	private UserMapper userMapper;
 
 	@GetMapping("")
-	public IPage<User> list(User params, @RequestParam(name = "pageNo", defaultValue = "1")Integer pageNo, @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
+	public IPage<User> list(User params,
+                            @RequestParam(name = "pageNo", defaultValue = "1")Integer pageNo,
+                            @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
 	    if (StringUtils.isEmpty(params.getName())) {
 	        params.setName(null);
         }
