@@ -5,7 +5,7 @@
 
     <groupId>org.linbo.demo</groupId>
     <artifactId>api-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v1.0</version>
     <packaging>jar</packaging>
 
     <name>api-demo</name>
