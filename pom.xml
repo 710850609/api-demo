@@ -5,7 +5,7 @@
 
     <groupId>org.linbo.demo</groupId>
     <artifactId>api-demo</artifactId>
-    <version>v1.0</version>
+    <version>v1.1</version>
     <packaging>jar</packaging>
 
     <name>api-demo</name>
@@ -64,6 +64,18 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- docker插件 -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>1.4.12</version>
+                <configuration>
+                    <repository>710850609/${project.artifactId}</repository>
+<!--                    <buildArgs>-->
+<!--                        <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>-->
+<!--                    </buildArgs>-->
+                </configuration>
             </plugin>
         </plugins>
     </build>
