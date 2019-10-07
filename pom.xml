@@ -72,9 +72,10 @@
                 <version>1.4.12</version>
                 <configuration>
                     <repository>710850609/${project.artifactId}</repository>
-<!--                    <buildArgs>-->
-<!--                        <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>-->
-<!--                    </buildArgs>-->
+                    <buildArgs>
+                        <!--设置构建参数，该参数可以直接在Dockerfile中使用-->
+                        <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                    </buildArgs>
                 </configuration>
             </plugin>
         </plugins>
